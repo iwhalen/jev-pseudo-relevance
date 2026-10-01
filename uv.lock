@@ -470,12 +470,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "datasets" },
+    { name = "tqdm" },
     { name = "typesafe-sdk" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = ">=5.0.1" },
+    { name = "tqdm", specifier = ">=4.70.1" },
     { name = "typesafe-sdk", specifier = ">=0.7.2" },
 ]
 
