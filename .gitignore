@@ -13,3 +13,4 @@ wheels/
 
 data/
 .vscode/
+.cache/
